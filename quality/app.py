@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("data/WineQT.csv")
+df = pd.read_csv("D:/streamlit assigment/streamlit/quality/data/WineQT.csv")
 
 # Load model
 with open("model.pkl", "rb") as f:
