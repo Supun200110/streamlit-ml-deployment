@@ -1,0 +1,11 @@
+{
+    "LinearRegression": {
+        "RMSE": 0.616467720373724,
+        "R2": 0.3170693672733116
+    },
+    "RandomForestRegressor": {
+        "RMSE": 0.5723528395367357,
+        "R2": 0.4113141525597973
+    },
+    "BestModel": "RandomForestRegressor"
+}
