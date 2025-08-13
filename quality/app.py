@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("data/WineQT.csv")
+df = pd.read_csv("quality/notebooks/model_training.ipynb")
 
 # Load model
 with open("model.pkl", "rb") as f:
