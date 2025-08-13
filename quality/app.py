@@ -63,7 +63,7 @@ elif choice == "Predict":
 elif choice == "Model Performance":
       st.subheader("Model Performance")
 import json
-with open("metrics.json", "r") as f:
+with open("quality/metrics.json", "r") as f:
         metrics = json.load(f)
      
         st.write(f"**Best Model:** {metrics['BestModel']}")
